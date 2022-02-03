@@ -7,7 +7,7 @@
 <a href="https://github.com/Mayhul-Jindal/"><img src="https://img.shields.io/badge/MAYHUL JINDAL-white.svg?&style=for-the-badge&logo=github&logoColor=black" ></a> 
 <a href="https://twitter.com/mayhulnotmehul"><img src="https://img.shields.io/badge/MAYHUL-blue.svg?&style=for-the-badge&logo=twitter&logoColor=white" ></a>
 <a href="discordapp.com/users/460880701617733633"><img src="https://img.shields.io/badge/TRIQUETRA-darkblue.svg?&style=for-the-badge&logo=discord&logoColor=white" ></a>
-![buriburizaemon](https://user-images.githubusercontent.com/95216160/151976565-87d470db-ac7f-4765-85ce-c0a69a61e5cd.gif)
+
 
 ## ⚡ Technologies
 ![](https://www.vectorlogo.zone/logos/python/python-icon.svg)
