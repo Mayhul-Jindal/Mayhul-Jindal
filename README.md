@@ -18,7 +18,7 @@
 ![](https://www.vectorlogo.zone/logos/golang/golang-icon.svg)
 <img src="https://bashlogo.com/img/symbol/svg/full_colored_dark.svg" alt="drawing" width="80"/>
 <img src="http://3con14.biz/code/_data/js/intro/js-logo.png" alt="drawing" width="70"/>
-
+![](https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg)
 
 ![Mayhul's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mayhul-Jindal&theme=github_dark&show_icons=true)
 
