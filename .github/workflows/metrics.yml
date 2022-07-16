@@ -1,0 +1,24 @@
+name: bigass metrics
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  push:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+jobs:
+  github-metrics-personal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: bottom
+        uses: lowlighter/metrics@latest
+        with:
+          filename: bottom.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+#           config_order: ""
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
