@@ -18,6 +18,9 @@ jobs:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
           SHOW_OS: "True"
           SHOW_PROJECTS: "True"
+          SHOW_TIMEZONE: "False"
+          SHOW_SHORT_INFO: "False"
+          SYMBOL_VERSION: "False"
   github-metrics-personal:
     runs-on: ubuntu-latest
     steps:
