@@ -19,6 +19,8 @@
 <details>
   <summary><b>🛠️&nbsp;&nbsp;Languages&nbsp;and&nbsp;Tools</b></summary>
   <br/>
+  <!--START_SECTION:waka-->
+  <!--END_SECTION:waka-->
 </details>
 
 <p align="center">
