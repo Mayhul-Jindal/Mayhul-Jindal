@@ -21,6 +21,12 @@ jobs:
           SHOW_TIMEZONE: "False"
           SHOW_SHORT_INFO: "False"
           SYMBOL_VERSION: "False"
+          SHOW_PROFILE_VIEWS: "False"
+          SHOW_TOTAL_CODE_TIME: "False"
+          SHOW_COMMIT: "False"
+          SHOW_DAYS_OF_WEEK: "False"
+          SHOW_LANGUAGE_PER_REPO: "False"
+          
   github-metrics-personal:
     runs-on: ubuntu-latest
     steps:
