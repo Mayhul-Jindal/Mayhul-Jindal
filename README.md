@@ -19,6 +19,15 @@
 <details>
   <summary><b>🛠️&nbsp;&nbsp;Languages&nbsp;and&nbsp;Tools</b></summary>
   <br/>
+💼 **Why Hire Me** 
+
+```
+👨‍💻 Skills:
+
+googling                 17 hrs 32 mins      █████████████████████████   100.0%    
+copy-paste               24 hrs 00 mins      █████████████████████████   100.0%
+```
+
   <!--START_SECTION:waka-->
 
 📊 **This Week I Spent My Time On** 
