@@ -1,13 +1,23 @@
 name: bigass metrics
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "30 18 * * *"
   push:
     branches:
       - master
       - main
   workflow_dispatch:
 jobs:
+  update-readme:
+    name: Update Readme with Metrics
+    runs-on: ubuntu-latest
+    steps:
+      - uses: anmol098/waka-readme-stats@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          SHOW_OS: "True"
+          SHOW_PROJECTS: "True"
   github-metrics-personal:
     runs-on: ubuntu-latest
     steps:
