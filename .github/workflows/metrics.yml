@@ -31,5 +31,5 @@ jobs:
           plugin_languages_sections: recently-used
           plugin_languages_recent_load: 400
           plugin_languages_recent_days: 30
-          plugin_languages_ignored: html, css, smali
+          plugin_languages_ignored: html, css, Smali
        
