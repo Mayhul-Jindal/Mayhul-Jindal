@@ -30,12 +30,9 @@ copy-paste               24 hrs 00 mins      ███████████�
 ```
 
   <!--START_SECTION:waka-->
-
 📊 **This Week I Spent My Time On** 
 
 ```text
-⌚︎ Time Zone: Asia/Kolkata
-
 💬 Programming Languages: 
 No Activity Tracked This Week
 
@@ -50,6 +47,12 @@ No Activity Tracked This Week
 
 ```
 
+**Timeline**
+
+![Chart not found](https://raw.githubusercontent.com/Mayhul-Jindal/Mayhul-Jindal/main/charts/bar_graph.png) 
+
+
+ Last Updated on 17/07/2022 02:24:56 UTC
 <!--END_SECTION:waka-->
 </details>
 
