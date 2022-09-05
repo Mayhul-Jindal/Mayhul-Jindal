@@ -30,25 +30,8 @@ copy-paste               24 hrs 00 mins      ███████████�
 ```
 
   <!--START_SECTION:waka-->
-📊 **This Week I Spent My Time On** 
 
-```text
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-
-```
-
-
- Last Updated on 04/09/2022 03:31:33 UTC
+ Last Updated on 05/09/2022 02:38:46 UTC
 <!--END_SECTION:waka-->
 </details>
 
