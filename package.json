@@ -1,0 +1,25 @@
+{
+  "name": "mayhul-jindal",
+  "version": "1.0.0",
+  "description": "Updates README.md with bookmark data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayhul-Jindal/Mayhul-Jindal.git"
+  },
+  "author": "Mayhul-Jindal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayhul-Jindal/Mayhul-Jindal/issues"
+  },
+  "homepage": "https://github.com/Mayhul-Jindal/Mayhul-Jindal#readme",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/mustache": "^4.2.1"
+  }
+}
