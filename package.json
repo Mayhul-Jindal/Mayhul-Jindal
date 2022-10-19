@@ -16,10 +16,10 @@
     "url": "https://github.com/Mayhul-Jindal/Mayhul-Jindal/issues"
   },
   "homepage": "https://github.com/Mayhul-Jindal/Mayhul-Jindal#readme",
-  "dependencies": {
-    "mustache": "^4.2.0"
-  },
   "devDependencies": {
     "@types/mustache": "^4.2.1"
+  },
+  "dependencies": {
+    "mustache": "^4.2.0"
   }
 }
