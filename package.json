@@ -20,6 +20,8 @@
     "@types/mustache": "^4.2.1"
   },
   "dependencies": {
-    "mustache": "^4.2.0"
-  }
+    "mustache": "^4.2.0",
+    "node-fetch": "^2.6.7"
+  },
+  "keywords": []
 }
