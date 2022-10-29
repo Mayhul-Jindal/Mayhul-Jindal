@@ -17,7 +17,7 @@ I am currently just learning new stuff and having fun. I'm part of `@GDGVIT` as 
 - Sometimes I play CTFs too, checkout our [team](https://ctftime.org/team/165779)
 
 ## 👨‍💻 My Bookmarks 
-Always wanted that everyone should share the articles they read everyday or the videos they come accross. So I have made an extension plus a Github-Action which will automatically update your bookmarks in your profile's README.md :)
+Always wanted that everyone should share the articles they read everyday or the videos they come accross. So I have made an [extension](https://github.com/Mayhul-Jindal/Bookit) plus a Github-Action which will automatically update your bookmarks in your profile's README.md :)
 
 <table>
 <tr><th>Mobile_Bookmarks</th><th>Bookmarks_Toolbar</th><th>vit</th><th>productivity</th><th>rev</th><th>random</th><th>project_related</th><th>AI</th><th>open_source</th><th>devops</th><th>CTF</th><th>golang</th></tr>
