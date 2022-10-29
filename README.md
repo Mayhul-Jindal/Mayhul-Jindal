@@ -6,7 +6,7 @@ I am currently just learning new stuff and having fun. I'm part of `@GDGVIT` as 
 
 <img align="right" height="300" width="425" alt="" src="https://user-images.githubusercontent.com/95216160/198546446-7fd44a46-bd79-47f3-9ba1-c4bc8bd718bd.gif" />
 
-### ✨ Why I am boring ✨
+## ✨ Why I am boring ✨
 
 - Currently want to make a career in `DevSecOps`
 - Exploring the `cyberSecurity` space in web, cloud and android/ios applications
@@ -15,18 +15,17 @@ I am currently just learning new stuff and having fun. I'm part of `@GDGVIT` as 
 - I have keen interest in understanding the deep-dives of `backend developemnt`
 - `Networking` is something which facinates me a lot
 
-### 👨‍💻 Daily grind
+## 👨‍💻 My Bookmarks 
+Always wanted that everyone should share the articles they read everyday or the videos they come accross. So I have made an extension plus a Github-Action which will update your bookmarks in your profile's README.md :)
 
+
+## 📈 Stats
 ```
 ctrl+c ctrl+v                 24 hrs 00 mins      █████████████████████████   100.0%
 ```
-
-### 📈 Github Stats
 <table>
   <tr>
     <td><img align="" width="" alt="🦑" src="/bottom.svg"></td>
     <td><img align="" width="" alt="🦑" src="/lang.svg"></td>
   </tr>
 </table>
-
-
