@@ -25,6 +25,7 @@ Always wanted that everyone should share the articles they read everyday or the 
 </table>
 
 ## 📈 Stats
+## 📈 Stats
 ```
 ctrl+c ctrl+v                 24 hrs 00 mins      █████████████████████████   100.0%
 ```
