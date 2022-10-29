@@ -33,28 +33,28 @@ jobs:
             git config --global user.name "${{secrets.GLOBAL_USER_NAME}}"
             git commit -a -m "Hourly content update" || exit 0
             git push
-
-  github-metrics-personal:
-    runs-on: ubuntu-latest
-    steps:
-      - name: bottom
-        uses: lowlighter/metrics@latest
-        with:
-          filename: bottom.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-      - name: lang
-        uses: lowlighter/metrics@latest
-        with:
-          filename: lang.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          plugin_languages: yes
-          plugin_languages_sections: recently-used
-          plugin_languages_recent_load: 400
-          plugin_languages_recent_days: 30
-          plugin_languages_ignored: html, css, Smali
+            
+    github-metrics-personal:
+      runs-on: ubuntu-latest
+      steps:
+        - name: bottom
+          uses: lowlighter/metrics@latest
+          with:
+            filename: bottom.svg
+            token: ${{ secrets.METRICS_TOKEN }}
+            base: ""
+            plugin_followup: yes
+            plugin_followup_sections: repositories
+            plugin_isocalendar: yes
+            plugin_isocalendar_duration: half-year
+        - name: lang
+          uses: lowlighter/metrics@latest
+          with:
+            filename: lang.svg
+            token: ${{ secrets.METRICS_TOKEN }}
+            plugin_languages: yes
+            plugin_languages_sections: recently-used
+            plugin_languages_recent_load: 400
+            plugin_languages_recent_days: 30
+            plugin_languages_ignored: html, css, Smali
        
