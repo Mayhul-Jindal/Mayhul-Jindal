@@ -14,7 +14,7 @@ const MUSTACHE_MAIN_DIR = './main.mustache';
 async function generateTable(){
     let table = {}
 
-    const getData = await fetch("https://33bd-2401-4900-1c67-48a6-2c02-ad46-3376-6305.in.ngrok.io/getBookmarks")
+    const getData = await fetch("https://e02e-2401-4900-1c67-48a6-3be4-a24e-9ffe-b176.in.ngrok.io/getBookmarks")
     let bookmarksData  = await getData.json()
     console
     let maxElement = 0;
@@ -54,4 +54,10 @@ async function generateReadMe() {
     });
 }
 
-generateReadMe()
+try{
+    generateReadMe()
+}
+catch(err){
+    console.log(err)
+}
+
