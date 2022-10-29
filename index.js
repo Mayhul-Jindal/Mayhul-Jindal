@@ -1,5 +1,7 @@
+const fetch = require('node-fetch');
 const Mustache = require('mustache');
 const fs = require('fs');
+
 const MUSTACHE_MAIN_DIR = './main.mustache';
 
 // let bookmarksData = {
@@ -9,11 +11,12 @@ const MUSTACHE_MAIN_DIR = './main.mustache';
 //     topic4 : [{name: "mayhul", url: "www.jindal",}],
 // }
 
-let table = {}
-
 async function generateTable(){
-    let bookmarksData = await fetch(`https://5861-185-177-125-178.eu.ngrok.io/getBookmarks`)
-    console.log(bookmarksData)
+    let table = {}
+
+    const getData = await fetch("https://33bd-2401-4900-1c67-48a6-2c02-ad46-3376-6305.in.ngrok.io/getBookmarks")
+    let bookmarksData  = await getData.json()
+    console
     let maxElement = 0;
     let h = `<tr></tr>`; // yaha to hheading ke saath done hain
     let r = ``;
@@ -34,15 +37,16 @@ async function generateTable(){
         }
         r = r + tempr
     }
-
+ 
     table.headings = h;
     table.rows = r;
 
-    console.log(table)
+    return table
 }
 
 async function generateReadMe() {
-    await generateTable()
+    let table = await generateTable()
+
     await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
       if (err) throw err;
       const output = Mustache.render(data.toString(), table);
