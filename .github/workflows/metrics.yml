@@ -7,9 +7,9 @@ on:
       - master
   workflow_dispatch:
 jobs:
-  add-bookmarks:
     build:
       runs-on: ubuntu-latest
+      
       steps:
         - name: Checkout current repository to master branch
           uses: actions/checkout@v3
