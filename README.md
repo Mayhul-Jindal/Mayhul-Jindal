@@ -14,7 +14,7 @@ I am currently just learning new stuff and having fun. Love to contribute to ope
 - `Reverse engineering` is also a hobbie of mine which helps me understand wide variety of tech stack and also the underlying tech
 - I have keen interest in understanding the deep-dives of `backend developemnt`
 - `Networking` is something which facinates me a lot
-- Sometimes I play CTFs too, checkout our ![team](https://ctftime.org/team/165779)
+- Sometimes I play CTFs too, checkout our [team](https://ctftime.org/team/165779)
 
 ## 👨‍💻 My Bookmarks 
 Always wanted that everyone should share the articles they read everyday or the videos they come accross. So I have made an extension plus a Github-Action which will automatically update your bookmarks in your profile's README.md :)
