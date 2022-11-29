@@ -7,32 +7,32 @@ on:
       - master
   workflow_dispatch:
 jobs:
-    build:
-      runs-on: ubuntu-latest
+#     build:
+#       runs-on: ubuntu-latest
       
-      steps:
-        - name: Checkout current repository to master branch
-          uses: actions/checkout@v3
-        - name: Setup Node.js v16.15.0
-          uses: actions/setup-node@v3
-          with:
-            node-version: 16
-        - name: Cache dependencies and build outputs
-          uses: actions/cache@v2.1.6
-          with:
-            path: node_modules
-            key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
-        - name: Install dependencies
-          run: npm install
-        - name: Generate README file
-          run: node index.js
-        - name: Commit and push new README.md
-          run: |-
-            git diff
-            git config --global user.email "${{secrets.GLOBAL_USER_EMAIL}}"
-            git config --global user.name "${{secrets.GLOBAL_USER_NAME}}"
-            git commit -a -m "Hourly content update" || exit 0
-            git push
+#       steps:
+#         - name: Checkout current repository to master branch
+#           uses: actions/checkout@v3
+#         - name: Setup Node.js v16.15.0
+#           uses: actions/setup-node@v3
+#           with:
+#             node-version: 16
+#         - name: Cache dependencies and build outputs
+#           uses: actions/cache@v2.1.6
+#           with:
+#             path: node_modules
+#             key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
+#         - name: Install dependencies
+#           run: npm install
+#         - name: Generate README file
+#           run: node index.js
+#         - name: Commit and push new README.md
+#           run: |-
+#             git diff
+#             git config --global user.email "${{secrets.GLOBAL_USER_EMAIL}}"
+#             git config --global user.name "${{secrets.GLOBAL_USER_NAME}}"
+#             git commit -a -m "Hourly content update" || exit 0
+#             git push
             
     github-metrics-personal:
       runs-on: ubuntu-latest
