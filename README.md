@@ -8,13 +8,11 @@ I am currently just learning new stuff and having fun. Love to contribute to ope
 
 ## ✨ Why I am boring ✨
 
-- Currently want to make a career in `DevSecOps`
-- Exploring the `cyberSecurity` space in web, cloud and android/ios applications
+- Currently exploring `data engineering` in IOT and learning a bit `ML`. 
+- Active in `cyberSecurity` space in web, iot AI and android. Sometimes I play CTFs too, checkout our [team](https://ctftime.org/team/165779)
 - I have interest in studying about `malwares` and how sophisticated they can be developed
-- `Reverse engineering` is also a hobbie of mine which helps me understand wide variety of tech stack and also the underlying tech
-- I have keen interest in understanding the deep-dives of `backend developemnt`
-- `Networking` is something which facinates me a lot
-- Sometimes I play CTFs too, checkout our [team](https://ctftime.org/team/165779)
+- `Reverse engineering` is also a hobbie of mine which helps me understand the underlying tech
+- Anything I do, my core interest still lies in `backend engineering`.
 
 ## 👨‍💻 My Bookmarks 
 Always wanted that everyone should share the articles they read everyday or the videos they come accross. So I have made an [extension](https://github.com/Mayhul-Jindal/Bookit) plus a Github-Action which will automatically update your bookmarks in your profile's README.md :)
