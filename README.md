@@ -9,7 +9,6 @@ I am currently just learning new stuff and having fun. Love to contribute to ope
 ## ✨ Why I am boring ✨
 
 - Currently exploring `data engineering` in IOT and learning a bit `ML`. 
-- Active in `cyberSecurity` space in web, iot AI and android. Sometimes I play CTFs too, checkout our [team](https://ctftime.org/team/165779)
-- I have interest in studying about `malwares` and how sophisticated they can be developed
-- `Reverse engineering` is also a hobbie of mine which helps me understand the underlying tech
-- Anything I do, my core interest still lies in `backend engineering`.
+- Active in `cyberSecurity` space and sometimes play CTFs too. Checkout our [team](https://ctftime.org/team/165779) :)
+- `Reverse engineering` is a hobbie of mine which helps me understand the underlying tech
+- Anything I do, my core interest still lies in `backend engineering` and just like to solve a problem
