@@ -1,6 +1,6 @@
 <h2>Hey ༼-つ◕(oo)◕༽つ I'm Mayhul</h2>
 
-Passionate backend engineer who loves pigs.
+Backend engineer who loves pigs :)
 
 <img align="right" height="300" width="425" alt="" src="https://user-images.githubusercontent.com/95216160/198546446-7fd44a46-bd79-47f3-9ba1-c4bc8bd718bd.gif" />
 
